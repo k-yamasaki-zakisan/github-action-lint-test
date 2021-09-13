@@ -14,7 +14,7 @@ export default class test extends Vue {
   }
 
   get test2() {
-    return this.test == 'test'
+    return this.test === 'test'
   }
 }
 </script>
